@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Roboto:ital,wght@0,500;0,700;1,500&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.cabeçalho{
+    width: 1400px;
+    height: 602px;
+    background-color: #129799;
+}
+.body{
+    width: 1400px;
+    height: 1239px;
+    background-color: #FFA185;
+}
+.box-header{
+    display: flex;
+    flex-direction: column;
+
+}
+.header-nav{
+    margin-top: 20px;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header-li{
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.header-a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+h1{
+    padding: 110px;
+    white-space: nowrap;
+    font-size: 60px;
+    height: 75px;
+    margin-left: -90px;
+}
+.header-image{
+    width: 640px;
+    height: 320px;
+    display: flex;
+}
+.header-nav2{
+    margin-top: 60px;
+}
+.header-ul2{
+    display: flex;
+    justify-content: space-around;
+}
+.header-li2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+    list-style: none;
+}
+.header-a2{
+    text-decoration: none;
+    color: #fff;
+}
+.main-h2{
+    color: #fff;
+    font-weight: 100;
+    font-size: 48px;
+    padding: 20px;
+    margin-left: 30px;
+}
+.main-p{
+    font-size: 30px;
+    margin-left: 48px;
+    
+}
+.main-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.main-image2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.main-mais{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.main-a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    width: 1400px;
+    height: 160px;
+    background-color: #129799;
+}
+.image-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.imagens-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
